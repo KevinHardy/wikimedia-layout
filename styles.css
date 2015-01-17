@@ -1,1 +1,46 @@
+/* {
+	outline: 2px solid red;
+}*/
 
+html, body {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	font: sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+
+}
+
+.openParagraph {
+	height: 25%;
+	width: 90%;
+	font-size: 150%;
+	margin: 0 auto;
+}
+
+.tabRight {
+	text-align: right;
+}
+
+.pic-row {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.pic {
+	float: left;
+	background-position: center;
+}
+
+.footer {
+	text-align: center;
+}
