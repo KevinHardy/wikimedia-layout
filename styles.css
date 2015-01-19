@@ -9,12 +9,21 @@ html, body {
 }
 
 body {
-	font: sans-serif;
+	font: sans-serif, serif;
 	box-sizing: border-box;
 }
 
-a {
+a:link {
+	color: blue;
+	text-decoration: none;
+}
 
+a:visited {
+	color: blue;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 .openParagraph {
@@ -43,4 +52,16 @@ a {
 
 .footer {
 	text-align: center;
+}
+
+.ftrlnks {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.lnks {
+	float: left;
 }
