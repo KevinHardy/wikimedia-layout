@@ -5,6 +5,7 @@
 html, body {
 	width: 100%;
 	min-height: 100%;
+	min-width: 700px;
 	margin: 0;
 }
 
@@ -51,17 +52,13 @@ a:hover{
 }
 
 .footer {
-	text-align: center;
-}
-
-.ftrlnks {
-	display: flex;
-	justify-content: space-between;
 	width: 90%;
-	padding: 10px;
+	border-top: 1px solid black;
+	text-align: center;
 	margin: 0 auto;
+	clear: both;
 }
 
 .lnks {
-	float: left;
+	margin-left: 10px;
 }
